@@ -13,7 +13,24 @@
 			1. https://www.netburner.com/learn/the-secret-is-out-how-to-view-encrypted-data-in-wireshark/
 		2. Learned that I could probably find the secret to decrypt the tls traffic
 			1. https://blog.didierstevens.com/2020/12/14/decrypting-tls-streams-with-wireshark-part-1/
+				1. this doc was a good start, but not what I was looking for :/
 3. Began search for the secret and related information
 	1. 13918 - pub key
 	2. 13911 - Cipher suite
 	3. 12362 - new session ticket
+		1. no dice??
+	4. (packet 86) Client Random: 42ae1df6b2ed5f90d5517b53a62cd959a0e3fde8b7c91e4ef3919d2182d81289
+		1. Was looking at this: https://blog.didierstevens.com/2020/12/28/decrypting-tls-streams-with-wireshark-part-2/
+		2. said just the client random would be enough to decrypt (they lied)
+	5. 
+Transport Layer Security
+    TLSv1.2 Record Layer: Handshake Protocol: Client Key Exchange
+        Content Type: Handshake (22)
+        Version: TLS 1.2 (0x0303)
+        Length: 37
+        Handshake Protocol: Client Key Exchange
+            Handshake Type: Client Key Exchange (16)
+            Length: 33
+            EC Diffie-Hellman Client Params
+                Pubkey Length: 32
+                Pubkey: 3071aa68dde36c95ccab951edc7e600af3a39f300095bbdf062704de770f037b
