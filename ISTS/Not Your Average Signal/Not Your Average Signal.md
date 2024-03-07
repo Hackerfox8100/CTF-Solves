@@ -1,1 +1,3 @@
 #### We have intercepted a wireless signal that might tell us who the most wanted in the West looks like. I didn't know you could get photos from waves either!
+
+This challenge provided a .wav file that at first sounded like lots of annoying beeps. After listening to it a second time, I recognized the sounds as [SSTV](https://en.wikipedia.org/wiki/Slow-scan_television) transmission. Oddly enough, I remembered solving a similar challenge in high school with a tool called [MMSSTV](https://hamsoft.ca/pages/mmsstv.php). 
