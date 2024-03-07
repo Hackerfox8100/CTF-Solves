@@ -1,0 +1,5 @@
+#All .obsidian files, .obsidian folders, and files and folders in any .obsidian folder
+.obsidian/
+
+#ignoring the gitignore file 
+.gitignore
