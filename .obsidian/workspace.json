@@ -11,8 +11,12 @@
             "id": "f25dae6d1678c2d2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "ISTS/Voyage Valley/Voyage Valley.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ISTS/Voyage Valley/Voyage Valley.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ISTS/Voyage Valley/Voyage Valley.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Voyage Valley.md"
+                "file": "ISTS/Voyage Valley/Voyage Valley.md"
               }
             }
           }
@@ -140,13 +146,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6525c9d377905aa2",
+  "active": "f25dae6d1678c2d2",
   "lastOpenFiles": [
+    "Pasted image 20240306210342.png",
+    "ISTS/Not Your Average Signal/Not Your Average Signal.md",
+    "ISTS/A Stoney Place/A Stoney Place.md",
+    "ISTS/Primitive Text/Primitive Text.md",
+    "Untitled.md",
+    "ISTS/Primitive Text.md",
+    "ISTS/A Stoney Place/grayscale_square.svg",
+    "ISTS/A Stoney Place",
+    "ISTS/New folder",
+    "ISTS/Not Your Average Signal/ohsowanted.wav",
+    "ISTS/Not Your Average Signal",
+    "ISTS/Voyage Valley/Voyage_Valley.jpg",
+    "ISTS/Voyage Valley/Voyage Valley.md",
+    "ISTS/Voyage Valley",
+    "ISTS/Primitive Text/primitive.pcapng",
+    "ISTS/Primitive Text",
+    "Untitled",
+    "Voyage Valley.md",
     "ISTS/primitive.pcapng",
     "ISTS/Voyage Valley.md",
-    "ISTS/Primitive Text.md",
     "Primitive Text.md",
-    "Voyage Valley.md",
     "ISTS"
   ]
 }
